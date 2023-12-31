@@ -27,7 +27,7 @@ AWS 3S 사용법 가이드를 기록
 - 버킷 선택 -> [권한] -> {[퍼블릭 엑세스 차단(버킷설정)] [편집]} -> 모든퍼블릭 엑세스 차단 [체크 해제]
 > ![P_A_Block](https://github.com/hanmin0512/aws_3S_Guide/assets/37041208/26772692-28c5-402b-b5f0-c555fc0d2649)
 > ![check](https://github.com/hanmin0512/aws_3S_Guide/assets/37041208/2dacde93-5100-44bd-b762-e242d01dae77)
-> ![confirm](https://github.com/hanmin0512/aws_3S_Guide/assets/37041208/7118b541-7f84-4671-9a35-687de1969db6
+> ![confirm](https://github.com/hanmin0512/aws_3S_Guide/assets/37041208/7118b541-7f84-4671-9a35-687de1969db6)
 
 - [권한]탭에서 -> {[객체 소유권] [편집]} -> [ACL 활성화됨]체크 -> [변경 사핮 저장]
 > ![Obj_Ac_mod](https://github.com/hanmin0512/aws_3S_Guide/assets/37041208/be7576ce-9552-407e-bac4-0310598a6e16)
@@ -39,3 +39,13 @@ AWS 3S 사용법 가이드를 기록
 
 - 브라우저를 통해 객체 url로 접근 성공
 > ![suc](https://github.com/hanmin0512/aws_3S_Guide/assets/37041208/7e7bca32-96c7-448a-8ab0-a5559050dc96)
+
+
+## 3S 동적 웹사이트 호스팅
+- 3S에서는 정적 웹사이트 호스팅을 지원한다.
+- [버킷] -> 버킷 선택 -> [속성] -> { [정적 웹 사이트 호스팅] [편집] } -> 정적 웹사이트 호스팅 활성화 체크, 인덱스문서 설정 기입(index.html) -> [변경 사항 저장]
+> ![static_web_hst_set](https://github.com/hanmin0512/aws_3S_Guide/assets/37041208/d6795aea-14e2-4d98-9e30-276e2112e695)
+- html 파일을 업로드 해주고, 올린 객체들을 선택하여 [ACL 을 사용하여 퍼블릭으로 설정] -> [버플릭으로 설정] 작업을 맞친 후 객체의 url에 접근한다.
+- 과거 프로젝트로 만들어논 정적 웹페이지가 호스팅 되었고, 웹 브라우저로 접근 되는 것을 확인 할 수 있다.
+> ![스크린샷 2023-12-31 오후 4 42 10](https://github.com/hanmin0512/aws_3S_Guide/assets/37041208/2356c28b-e458-4151-8427-b4f1f7f28529)
+
