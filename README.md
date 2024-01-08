@@ -41,7 +41,7 @@ AWS 3S 사용법 가이드를 기록
 > ![suc](https://github.com/hanmin0512/aws_3S_Guide/assets/37041208/7e7bca32-96c7-448a-8ab0-a5559050dc96)
 
 
-## 3S 동적 웹사이트 호스팅
+## 3S 정적 웹사이트 호스팅
 - 3S에서는 정적 웹사이트 호스팅을 지원한다.
 - [버킷] -> 버킷 선택 -> [속성] -> { [정적 웹 사이트 호스팅] [편집] } -> 정적 웹사이트 호스팅 활성화 체크, 인덱스문서 설정 기입(index.html) -> [변경 사항 저장]
 > ![static_web_hst_set](https://github.com/hanmin0512/aws_3S_Guide/assets/37041208/d6795aea-14e2-4d98-9e30-276e2112e695)
